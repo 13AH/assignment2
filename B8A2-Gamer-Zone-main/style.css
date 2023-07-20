@@ -46,6 +46,7 @@ padding: 0px;
     padding: 2rem;
     justify-content: space-between;
     align-items: center;
+    background-image:(images/Group 14.png);
 }
 .banner-heading{
     font-size: 5rem;
@@ -74,4 +75,20 @@ padding: 0px;
 li{
     display: flex;
     align-items: center;
+}
+/* online funny video styles */
+.online-header, .intro{
+    text-align: center ;
+}
+.funny-header{
+    font-weight: 800; 
+    background: linear-gradient(to left, #f32170, #cf23cf);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.funny-img{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
 }
