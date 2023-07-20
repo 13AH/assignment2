@@ -4,6 +4,7 @@
 font-family: 'Work Sans', sans-serif;
 margin:0px;
 padding: 0px;
+max-width: 100%;
 }
 .button1{
     background-color: #F948B2;
@@ -77,6 +78,10 @@ li{
     align-items: center;
 }
 /* online funny video styles */
+.funny-video{
+    padding: 2rem;
+
+}
 .online-header, .intro{
     text-align: center ;
 }
@@ -91,4 +96,43 @@ li{
     justify-content: center;
     padding: 2rem;
     gap: 1rem;
+}
+.play-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 2rem;   
+}
+.play-content{
+    text-align: center;
+    padding-left: 100px;
+}
+.play-img2{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: -150px;
+}
+.link-button-section{
+    padding-top: 200px;
+}
+/* link button section */
+.button-line1{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.btn1:hover{
+    color:#F948B2;
+    border: #F948B2 1px solid;
+    border-radius: 50px;
+    padding: 10px;
 }
